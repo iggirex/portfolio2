@@ -61,10 +61,8 @@
   float: right;
 }
 
-projectImage {
-  /*height: 10px;*/
-  height: 50px;;
-
+#projects {
+  margin: 50px;
 }
 
 #about {
@@ -72,21 +70,40 @@ projectImage {
   background-color: black;
   text-align: center;
   color: white;
-  margin: 50px;
+  margin: 200px;
+  margin-top: 100px;
 }
-/*.projectLabel {
-  color: white;
-  /*z-index: 100;*/
+.aboutWrapper {
+  /*width: 100%;*/
+  margin: 30px;
+}
+/*.aboutSection {
+  width: 200px;
 }*/
+.contactImg {
+  height: 40px;
+  width: 40px;
+}
+.contactDivs {
+  display: inline-block;
+  margin: 100px;
+  /*margin-bottom: 0px;*/
+}
 .prefooter {
+  height: 100px;
   color: white;
   text-align: center;
+  margin: 100 auto;
+  margin-bottom: 50;
 }
 .footer {
   color: white;
   text-align: center;
   font-size: 100px;
   font-weight: 300;
+  margin: 0 auto;
+  height: 150px;
+
 }
 
 #one {
