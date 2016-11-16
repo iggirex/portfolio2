@@ -14,20 +14,19 @@
  }
 
  #nameBanner {
-   margin: 30px;
+   margin: 50px;
  }
-
+.developer {
+  margin: 80px;
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
 
 .cardy-container {
-  margin: 0 auto;
   width: 100%;
   height: 200px;
   overflow: hidden;
-  position: relative;
-  margin: 0 auto;
 }
 .rightWing {
   background-color: black;
@@ -38,7 +37,10 @@
   /*justify-content: flex-start;*/
   position: absolute;;
 }
-
+.columnID {
+  display: flex;
+  flex-direction: column;
+}
 .rightRightWing {
   position: absolute;
   right: 0;
@@ -60,29 +62,74 @@
   height: 50px;
   float: right;
 }
-
+.picHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myPic {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  border-radius:  50%;
+  border-radius:  50%;
+  margin: 50px;
+}
 #projects {
   margin: 50px;
 }
+.projectCardContainer {
+  /*margin: 0 auto;*/
+  /*margin-left: 15%;
+  margin-right: 15%;*/
+  display: flex;
+  justify-content: center;
 
-#about {
-  height: 100px;
-  background-color: black;
+}
+.projectCards {
+  margin: 10px;
+  background-color: white;
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+}
+.projHead {
+  color:white;
+}
+.projDescript {
   text-align: center;
+  color: black;
+}
+#about {
+  /*text-align: center;*/
   color: white;
-  margin: 200px;
-  margin-top: 100px;
+  display: flex;
 }
 .aboutWrapper {
+  display: flex;
+  flex-direction: row;
   /*width: 100%;*/
-  margin: 30px;
+  margin: 50px;
+  margin-top: 150px;
 }
-/*.aboutSection {
-  width: 200px;
-}*/
+.aboutSection {
+  font-size: 25px;
+  display: flex;
+}
 .contactImg {
   height: 40px;
   width: 40px;
+}
+.circly {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.projHead {
+  text-align: center;
+  font-size: 20px;
+  height: 60px;
 }
 .contactDivs {
   display: inline-block;
@@ -90,11 +137,12 @@
   /*margin-bottom: 0px;*/
 }
 .prefooter {
-  height: 100px;
+  height: 200px;
   color: white;
   text-align: center;
   margin: 100 auto;
   margin-bottom: 50;
+  margin-top: 100px;
 }
 .footer {
   color: white;
@@ -102,10 +150,8 @@
   font-size: 100px;
   font-weight: 300;
   margin: 0 auto;
-  height: 150px;
-
+  height: 250px;
 }
-
 #one {
   background-color: #e51c23;
 }
