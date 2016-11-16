@@ -60,9 +60,30 @@
   height: 50px;
   float: right;
 }
-
 #projects {
   margin: 50px;
+}
+.projectCardContainer {
+  /*margin: 0 auto;*/
+  /*margin-left: 15%;
+  margin-right: 15%;*/
+  display: flex;
+  justify-content: center;
+
+}
+.projectCards {
+  margin: 10px;
+  background-color: white;
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+}
+.projHead {
+  color:white;
+}
+.projDescript {
+  text-align: center;
+  color: black;
 }
 
 #about {
@@ -83,6 +104,16 @@
 .contactImg {
   height: 40px;
   width: 40px;
+}
+.circly {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.projHead {
+  text-align: center;
+  font-size: 20px;
+  height: 60px;
 }
 .contactDivs {
   display: inline-block;
