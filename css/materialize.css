@@ -60,6 +60,12 @@
   height: 50px;
   float: right;
 }
+.myPic {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: inline-block;
+}
 #projects {
   margin: 50px;
 }
@@ -85,22 +91,19 @@
   text-align: center;
   color: black;
 }
-
 #about {
-  height: 100px;
-  background-color: black;
   text-align: center;
   color: white;
-  margin: 200px;
-  margin-top: 100px;
+  margin: 100px;
+  display: inline-block;
 }
 .aboutWrapper {
   /*width: 100%;*/
-  margin: 30px;
+  /*margin: 30px;*/
 }
-/*.aboutSection {
-  width: 200px;
-}*/
+.aboutSection {
+  font-size: 25px;
+}
 .contactImg {
   height: 40px;
   width: 40px;
@@ -121,7 +124,7 @@
   /*margin-bottom: 0px;*/
 }
 .prefooter {
-  height: 100px;
+  height: 200px;
   color: white;
   text-align: center;
   margin: 100 auto;
@@ -133,10 +136,8 @@
   font-size: 100px;
   font-weight: 300;
   margin: 0 auto;
-  height: 150px;
-
+  height: 250px;
 }
-
 #one {
   background-color: #e51c23;
 }
