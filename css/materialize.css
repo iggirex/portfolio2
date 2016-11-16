@@ -12,7 +12,8 @@
    color: black;
    margin: 0 auto;
  }
-
+#githubcat {
+}
  #nameBanner {
    margin: 50px;
  }
@@ -120,6 +121,7 @@
 .contactImg {
   height: 40px;
   width: 40px;
+  vertical-align: middle;
 }
 .circly {
   border-radius: 50%;
