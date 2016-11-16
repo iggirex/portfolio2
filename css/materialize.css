@@ -117,6 +117,9 @@
 .aboutSection {
   font-size: 25px;
   display: flex;
+  position: relative;
+  overflow: scroll;
+  height: 300px;
 }
 .contactImg {
   height: 40px;
